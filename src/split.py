@@ -59,7 +59,7 @@ if __name__=="__main__":
    vaciar_directorio(directorio_train);
    vaciar_directorio(directorio_test );
    
-   k = 20 
+   k = 80 
 
-   dividir_archivos(directorio_origen, directorio_destino_1, directorio_destino_2, k);
+   dividir_archivos(directorio_origen, directorio_train, directorio_test, k);
    
