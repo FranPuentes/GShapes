@@ -33,7 +33,7 @@ if __name__ == "__main__":
           };
    
 
-   model.train(imgsz=640, batch=-1, epochs=100, data=yaml_file, device="cuda", patience=False, project=runs, name=".", exist_ok=True, plots=True, seed=17, **params);
+   model.train(imgsz=640, batch=-1, epochs=100, data=yaml_file, device="cuda", patience=50, project=runs, name=".", exist_ok=True, plots=True, seed=17, **params);
    
    #model.export(format="onnx"  );
    #model.export(format="engine");
