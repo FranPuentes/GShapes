@@ -1,0 +1,13 @@
+#path: /home/pcjf/DATASETS/Data/cvat/GShapes/tmp
+path: /home/fran/CODE/GShapes/tmp
+train: train
+val: test
+
+##########################################
+names:
+  0: circle
+  1: triangle
+  2: square
+  3: pentagon
+  4: hexagon
+
